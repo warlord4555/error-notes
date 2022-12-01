@@ -15,3 +15,7 @@ so basically change
 __MONGO_DB_CONNNECT_STRING='mongodb://127.0.0.1/dbName'__
 
 yes, just change __localhost__ to __127.0.0.1__
+
+<h3>Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client</h3>
+
+i was trying to send response in a loop, just rebuilt my function.
